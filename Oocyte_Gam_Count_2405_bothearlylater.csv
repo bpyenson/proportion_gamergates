@@ -1,0 +1,220 @@
+﻿Dissector,Interval,Sampling,DeadGams,Reverts,Newgams,Gams,GroupSize,TotalPupae,InitPupae,finalpupae,finallarvae,finaleggs,BPYO,BPMATED,BPYB,BPDissNotes,CABYO,CABMATED,CABYB,CABDissNotes,KLHYO,KLHMATED,KLHYB,KLHDissNotes,BehaviorSampled,Treatment,Date-Dissection,TRUE GAM COLONY,TRUE GAM MARK,status,cricket,headwidth,headwidth_mm,headwidth2,braindiss,oocyte_gam,gam_agreement,Ovary File Image Number(Blinded),PHOTO_YO,PHOTO_MATED,PHOTO_YB,NOTES--BP-when observing photographs blindly
+BP,Eighteen,Final,1,,,1,11,48,7,48,,,5,1,1,,5,1,1,,,,,,,SP,5/4/21,SAFC17,BGB,G,,1,2.577,2.6,1,G,TRUE,7A,5,1,1,
+BP,Eighteen,Final,1,,,5,10,21,21,21,,,0,1,1,,0,1,1,,,,,,,IP,5/5/21,SAFC5A,OYO,G,,1,2.729,2.7,0,W,FALSE,10A,0,1,1,"if Orange gamergate that died reverted, then count as revert"
+BP,Eighteen,Final,1,,,5,10,21,21,21,,,4,1,1,,3,1,1,,,,,,,IP,5/5/21,SAFC5A,Yellow,G,,1,2.884,2.9,1,G,TRUE,65A,4,1,1,
+BP,Eighteen,Final,1,,,5,10,21,21,21,,,4,0,1,,4,0,1,,,,,,,IP,5/5/21,SAFC5A,WOWO,G,,1,2.885,2.9,1,G,TRUE,29A,3,0,1,
+BP,Eighteen,Final,1,,,5,10,21,21,21,,,5,1,1,lost 1 yo from ovary in transition to photoraph,4,1,1,,,,,,,IP,5/5/21,SAFC5A,OGO,G,,1,2.926,2.9,1,G,TRUE,4A,4,1,1,
+BP,Eighteen,Final,1,,,5,10,21,21,21,,,5,1,1,,5,1,1,,,,,,,IP,5/5/21,SAFC5A,YGY,G,,1,2.597,2.6,0,G,TRUE,67A,4,1,1,
+BP,Eighteen,Final,,1,1,2,24,57,2,7,12,37,4,1,1,,4,0,1,unsure about one of the oocytes,,,,,1,SP,6/3/21,RGB(109),YGY,G,,1,2.489,2.5,1,G,TRUE,40A,4,0,1,
+BP,Eighteen,Final,,1,1,2,24,57,2,7,12,37,7,1,1,,7,1,1,did not count 1 as too transparent,,,,,1,SP,6/3/21,RGB(109),GOG,G,,1,2.570,2.6,1,G,TRUE,31A,6,1,1,
+BP,Eighteen,Final,,,,8,11,118,46,5,9,70,3,1,1,,3,1,1,,,,,,1,IP,6/4/21,F32,WGW,G,,1,2.574,2.6,0,G,TRUE,68A,3,1,1,
+BP,Eighteen,Final,,,,8,11,118,46,5,9,70,4,1,1,,4,1,1,,,,,,1,IP,6/4/21,F32,BYB,G,,1,2.513,2.5,0,G,TRUE,42A,4,1,1,
+BP,Eighteen,Final,,,,8,11,118,46,5,9,70,4,0,1,,4,0,1,,,,,,1,IP,6/4/21,F32,OPO,G,,1,2.828,2.8,1,G,TRUE,35A,4,0,1,
+BP,Eighteen,Final,,,,8,11,118,46,5,9,70,5,1,1,,4,1,1,,,,,,1,IP,6/4/21,F32,BOB,G,,1,2.487,2.5,0,G,TRUE,19A,4,1,1,
+BP,Eighteen,Final,,,,8,11,118,46,5,9,70,5,1,1,,5,1,1,,,,,,1,IP,6/4/21,F32,GWG,G,,1,2.654,2.7,0,G,TRUE,50A,4,1,1,
+BP,Eighteen,Final,,,,8,11,118,46,5,9,70,6,1,1,,6,1,1,,,,,,1,IP,6/4/21,F32,OYO,G,,1,2.703,2.7,0,G,TRUE,52A,5,1,1,
+BP,Eighteen,Final,,,,8,11,118,46,5,9,70,6,1,1,,6,1,1,,,,,,1,IP,6/4/21,F32,OGO,G,,1,2.828,2.8,1,G,TRUE,15A,6,1,1,
+BP,Eighteen,Final,,,,8,11,118,46,5,9,70,6,1,1,,4,1,1,,,,,,1,IP,6/4/21,F32,OBO,G,,1,2.739,2.7,1,G,TRUE,28A,5,1,1,5th Yo counted as can distinguish it ontop of another YO
+BP,Eighteen,Final,,1,,9,16,42,21,0,3,101,0,1,1,,0,1,1,,,,,,1,IP,7/20/21,R5(117C),OGO,RG,0,1,2.448,2.4,0,RG,TRUE,32A,0,1,1,"not counting Yo since round, but not ovoid"
+BP,Eighteen,Final,,1,,9,16,42,21,0,3,101,2,1,1,maybe 1+ yolky oocytes damaged during dissections,2,1,1,,,,,,1,IP,7/20/21,R5(117C),GWG,G,0,1,2.632,2.6,0,G,TRUE,58A,2,1,1,
+BP,Eighteen,Final,,1,,9,16,42,21,0,3,101,4,1,1,,4,1,1,one oocyte pinched,,,,,1,IP,7/20/21,R5(117C),WGW,G,0,1,2.388,2.4,0,G,TRUE,48A,4,0,1,
+BP,Eighteen,Final,,1,,9,16,42,21,0,3,101,4,1,1,,4,1,1,,,,,,1,IP,7/20/21,R5(117C),GBG,G,0,1,2.589,2.6,1,G,TRUE,22A,4,1,1,
+BP,Eighteen,Final,,1,,9,16,42,21,0,3,101,5,1,1,,5,1,1,,,,,,1,IP,7/20/21,R5(117C),OYO,G,0,1,2.646,2.6,0,G,TRUE,41A,4,1,1,
+BP,Eighteen,Final,,1,,9,16,42,21,0,3,101,5,1,1,,5,1,1,,,,,,1,IP,7/20/21,R5(117C),WP,G,0,1,2.642,2.6,0,G,TRUE,33A,5,1,1,
+BP,Eighteen,Final,,1,,9,16,42,21,0,3,101,5,1,1,,4,1,1,1 YO uncounted b/c transparent,,,,,1,IP,7/20/21,R5(117C),ORANGE,G,0,1,2.470,2.5,0,G,TRUE,39A,5,1,1,"hard to tell, but can distinguish 5th yo on top of a larger YO"
+BP,Eighteen,Final,,1,,9,16,42,21,0,3,101,6,1,1,lost spermatheca after taking picture,6,0,1,,,,,,1,IP,7/20/21,R5(117C),BYB,G,0,1,2.544,2.5,1,G,TRUE,20A,5,1,1,
+BP,Eighteen,Final,,1,,9,16,42,21,0,3,101,6,1,1,,6,1,1,,,,,,1,IP,7/20/21,R5(117C),YOY,G,0,1,2.528,2.5,0,G,TRUE,59A,3,1,1,
+BP,Eighteen,Final,,1,,9,16,42,21,0,3,101,6,1,1,,6,1,1,1 uncounted b/c half transparent,,,,,1,IP,7/20/21,R5(117C),PYP,G,0,1,2.694,2.7,1,G,TRUE,46A,5,1,1,
+BP,Eighteen,Final,,,,2,18,116,16,10,11,23,6,1,1,,6,1,1,,,,,,1,SP,7/21/21,F111,WBW,G,0,1,2.708,2.7,1,G,TRUE,71A,6,1,1,
+BP,Eighteen,Final,,,,2,18,116,16,10,11,23,7,1,1,,6,1,1,1 uncounted b/c half transparent,,,,,1,SP,7/21/21,F111,POP,G,0,1,2.790,2.8,1,G,TRUE,72A,7,1,1,7th large YO is discernible even though smaller Yos are on top
+BP,Eighteen,Final,1,,1,2,5,117,56,0,0,3,0,1,0,,,,,,,,,,,SP,6/14/21,49B,OWO,unclear,,1,2.526,2.5,0,RG,FALSE,55A,0,1,0,"unclear scanobs before dying, therefore assumed to be a reverted gamergate"
+BP,Eighteen,Final,1,,,3,6,63,6,1,4,27,1,1,1,,,,,,,,,,,IP,6/2/21,SAFC20,PGP,RG,,1,2.439,2.4,0,RG,TRUE,25A,0,1,0,not counting YO since its not ovoid enough
+BP,Eighteen,Final,1,1,,3,6,63,6,1,4,27,0,0,1,,,,,,,,,,,IP,5/13/21,SAFC20,YOY,RG,,0,,,0,RG,TRUE,18A,0,0,1,
+BP,Eighteen,Final,1,1,,3,6,63,6,1,4,27,0,1,1,,,,,,,,,,,IP,5/13/21,SAFC20,YPY,RG,,0,,,0,RG,TRUE,56A,0,0,1,"if spermatheca is more in area of ovarioles, then yes it's filled.  Looks instead just like a round trophocyte, so no"
+BP,Eighteen,Final,1,1,,3,6,63,6,1,4,27,0,1,1,,0,1,1,,,,,,,IP,7/22/21,SAFC20,BYB,RG,1,1,2.415,2.4,0,RG,TRUE,45A,0,1,1,
+BP,Eighteen,Final,1,1,,3,6,63,6,1,4,27,1,1,1,,1,1,1,,,,,,,IP,7/22/21,SAFC20,GOG,RG,1,1,2.528,2.5,0,RG,TRUE,26A,1,1,1,
+BP,Eighteen,Final,1,1,,3,6,63,6,1,4,27,1,1,1,,1,1,1,,,,,,,IP,7/22/21,SAFC20,OPO,G,0,1,2.568,2.6,0,RG,FALSE,9A,1,1,1,
+BP,Eighteen,Final,1,1,,3,6,63,6,1,4,27,4,1,1,,5,1,1,,,,,,,IP,7/22/21,SAFC20,POP,RG,0,1,2.763,2.8,1,G,FALSE,2A,5,1,1,counting 1 YO that is partially obscured but seems ovoid and opaque beneath others
+BP,Eighteen,Final,1,1,,3,6,63,6,1,4,27,4,1,1,,4,1,1,,,,,,,IP,7/22/21,SAFC20,OYO,G,0,1,3.000,3.0,1,G,TRUE,5A,3,1,1,
+BP,Eighteen,Final,1,1,,3,6,63,6,1,4,27,4,1,1,,3,1,1,,,,,,,IP,7/22/21,SAFC20,YGY,G,0,1,2.683,2.7,1,G,TRUE,36A,3,1,1,
+BP,Eighteen,Final,1,1,1,,,,,,,,1,1,1,,,,,,,,,,,IP,7/10/21,R3BA(3),BPB,RG,,1,2.512,2.5,0,RG,TRUE,43B,1,0,1,died but not clear if it was a reverted gamergate
+BP,Eighteen,Final,1,1,1,5,13,59,31,0,0,38,5,1,0,,4,0,1,,,,,,,IP,8/22/21,R3BA(3),OWO,G,0,1,2.913,2.9,0,G,TRUE,39B,3,1,1,"BP: may be 4 YO, as one is beneath the others--but too indistinct to be conclusive"
+BP,Eighteen,Final,1,1,1,5,13,59,31,0,0,38,3,1,1,1 OOCYTE ROUND AND YOLKY NOT COUNTED,3,1,1,one of the counted YO is small but matches criteria,,,,,,IP,8/22/21,R3BA(3),WOW,G,0,1,2.701,2.7,0,G,TRUE,10B,3,1,1,3rd yolky oocyte is blurry and a judgment call
+BP,Eighteen,Final,1,1,1,5,13,59,31,0,0,38,4,1,1,,4,1,1,,,,,,,IP,8/22/21,R3BA(3),GBG,unclear,0,1,2.821,2.8,0,G,FALSE,9B,4,1,1,
+BP,Eighteen,Final,1,1,1,5,13,59,31,0,0,38,3,1,1,,3,1,1,,,,,,,IP,8/22/21,R3BA(3),WGW,G,0,1,2.940,2.9,0,G,TRUE,1B,4,1,1,
+BP,Eighteen,Final,1,1,1,5,13,59,31,0,0,38,4,1,1,,4,1,1,,,,,,,IP,8/22/21,R3BA(3),GOG,G,0,1,2.829,2.8,0,G,TRUE,31B,4,1,1,
+BP,Eighteen,Final,1,1,1,5,13,59,31,0,0,38,1,1,1,LOST 1 yo AFTER PHOTOGRAPH,0,1,1,,,,,,,IP,8/22/21,R3BA(3),BGB,G,1,1,2.596,2.6,0,RG,FALSE,47B,1,1,1,
+BP,Eighteen,Final,1,1,1,5,13,59,31,0,0,38,0,1,1,,0,1,1,"1 tiny oocyte, but not fully filled",,,,,,IP,8/22/21,R3BA(3),GWG,RG,0,1,2.540,2.5,0,RG,TRUE,7B,0,1,1,
+BP,Eighteen,Final,1,1,1,5,13,59,31,0,0,38,0,1,1,LOST SPERMATHECA DURING DISSECTION,0,0,1,,,,,,,IP,8/22/21,R3BA(3),WPW,RG,1,1,2.627,2.6,0,RG,TRUE,2B,0,0,1,
+BP,Eighteen,Final,1,1,1,5,13,59,31,0,0,38,0,1,1,,0,1,1,,,,,,,IP,8/22/21,R3BA(3),PBP,RG,1,1,2.515,2.5,0,RG,TRUE,30B,0,1,1,
+BP,Eighteen,Final,1,1,1,5,13,59,31,0,0,38,0,1,1,,0,1,1,,,,,,,IP,8/22/21,R3BA(3),BOB,RG,1,1,2.403,2.4,0,RG,TRUE,34B,0,1,1,
+BP,Eighteen,Final,1,1,1,5,13,59,31,0,0,38,0,0,1,,,,,,,,,,,IP,8/22/21,R3BA(3),GWP,RG,,1,2.707,2.7,0,RG,TRUE,42B,0,1,0,
+BP,Eighteen,Final,1,1,1,5,13,59,31,0,0,38,0,0,0,,0,0,0,,,,,,,IP,8/22/21,R3BA(3),OBO,NG1,0,1,2.500,2.5,0,W,FALSE,24B,0,0,0,
+BP,Eighteen,Final,,,,1,8,87,13,0,6,17,6,1,1,,6,1,1,,,,,,,SP,8/23/21,F100A,OWO,G,0,1,2.592,2.6,0,G,TRUE,11B,6,1,1,
+BP,Eighteen,Final,,,,5,8,17,11,0,6,39,4,1,1,,4,1,1,,,,,,1,IP,9/8/21,SAFC17A,YOY,G,0,0,,,1,G,TRUE,45B,4,1,1,
+BP,Eighteen,Final,,,,5,8,17,11,0,6,39,5,1,1,5th yolky oocyte small and broken during dissections,5,1,1,,,,,,1,IP,9/8/21,SAFC17A,GBG,G,0,1,2.659,2.7,1,G,TRUE,48B,4,1,1,"4th yo hard to discern, but there"
+BP,Eighteen,Final,,,,5,8,17,11,0,6,39,6,1,1,2 yolky oocytes damaged during dissections.  Not apparent in photographs at all,4,1,1,"maybe 1 more YO, but broken up a bit",,,,,1,IP,9/8/21,SAFC17A,GOG,G,1,1,2.552,2.6,0,G,TRUE,41B,4,1,1,
+BP,Eighteen,Final,,,,5,8,17,11,0,6,39,4,1,1,"1 yolky oocyte damaged, but still counted",3,1,1,maybe 1 more YO that was translucent; maybe 2nd YO that was broken,,,,,1,IP,9/8/21,SAFC17A,OYO,G,1,1,2.279,2.3,0,G,TRUE,13B,5,1,1,5th yolky oocyte was clearly destroyed but still ovoid enough to count; 4th yolky oocyte translucent but yolky enough
+BP,Eighteen,Final,,,,5,8,17,11,0,6,39,4,1,1,1 yolky oocyte damaged and difficult to see as ovoid by time of photograph,3,1,1,"broken up oocyte-, uncounted",,,,,1,IP,9/8/21,SAFC17A,BOB,G,0,1,2.706,2.7,1,G,TRUE,4B,3,1,1,
+BP,Eighteen,Final,1,1,,2,18,59,9,2,7,16,5,1,1,,5,1,1,,,,,,1,SP,9/9/21,F32A,YBY,G,0,1,2.778,2.8,1,G,TRUE,27B,5,1,1,one yo is obfuscated but can tell it is a YO
+BP,Eighteen,Final,1,1,,2,18,59,9,2,7,16,5,1,1,5TH YOLKY OOCYTE HARD TO SEE,4,1,1,1 yo that is translucent did not count,,,,,1,SP,9/9/21,F32A,BYB,G,0,1,2.690,2.7,1,G,TRUE,28B,4,1,1,one oocyte is too translucent to count
+BP,Eighteen,Final,1,1,,2,18,59,9,2,7,16,0,1,1,,0,1,1,,,,,,1,SP,9/9/21,F32A,MYM,RG,1,1,2.579,2.6,0,RG,TRUE,40B,0,1,1,
+BP,Eighteen,Final,,,,1,7,4,3,0,7,18,7,1,1,"7TH YOLKY OOCYTE HARD TO SEE, 6TH YOLKY OOCYTE BROKEN",6,1,1,one small oocyte did not count,,,,,,SP,9/9/21,F105/2,OGO,G,0,1,3.026,3.0,1,G,TRUE,35B,6,1,1,1 yo obfuscated but can tell it's there; 1 uncounted  doesn't have ovoid shape to count
+BP,Eighteen,Final,,,,1,7,4,3,0,7,18,1,1,1,,2,1,1,,,,,,,SP,9/9/21,F105/2,OYO,unclear,0,1,2.754,2.8,0,W,FALSE,19B,1,1,1,1 oocyte not counted b/c round and too translucent
+BP,Eighteen,Final,,,,1,7,4,3,0,7,18,0,1,0,,0,1,0,,,,,,,SP,9/9/21,F105/2,GWG,W,1,1,2.596,2.6,0,W,TRUE,49B,0,1,0,yellow is NOT a yellow body but something else
+BP,Eighteen,Final,1,1,,,,,,,,,0,1,1,,,,,,,,,,,IP,11/22/21,F105,BOB,RG,,1,2.769,2.8,,RG,TRUE,11C,0,1,1,
+BP,Eighteen,Final,,,,2,17,1,1,0,3,52,3,1,1,,,,,,,,,,1,SP,3-Jan,F103,OPO,G,,1,2.562,2.6,,G,TRUE,16C,3,1,1,
+BP,Eighteen,Final,,,,1,18,4,0,0,8,29,12,1,1,,11,1,1,,,,,,,SP,1/4/22,64C,WOW,G,0,1,2.965,3.0,,G,TRUE,14C,12,1,1,
+BP,Eighteen,Final,,,,1,18,4,0,0,8,29,,,,,,,,,,,,,,SP,1/4/22,64C,UMW1,W,1,0,,,,W,TRUE,,,,,
+BP,Eighteen,Final,,,,1,18,4,0,0,8,29,,,,,,,,,,,,,,SP,1/4/22,64C,UMW2,W,1,0,,,,W,TRUE,,,,,
+BP,Eighteen,Final,,,,1,18,4,0,0,8,29,,,,,0,0,0,,,,,,,SP,1/4/22,64C,UMW3,W,1,1,2.729,2.7,,W,TRUE,23C,0,0,0,
+BP,Eighteen,Final,,,1,3,20,51,8,3,13,46,7,0,1,1 yolky oocyte damaged,7,0,1,,,,,,1,SP,1/4/22,SAFC13,BOB,G,0,1,2.786,2.8,,G,TRUE,2C,7,1,1,
+BP,Eighteen,Final,,,1,3,20,51,8,3,13,46,8,1,1,1 yolky oocyte damaged,7,0,1,,,,,,1,SP,1/4/22,SAFC13,GBG,G,0,1,2.886,2.9,,G,TRUE,13C,7,1,1,
+BP,Eighteen,Final,,,1,3,20,51,8,3,13,46,6,1,0,,7,1,1,,,,,,1,SP,1/4/22,SAFC13,Blue,NG2,0,1,2.487,2.5,,NG,FALSE,25C,6,1,0,
+BP,Eighteen,Final,,,1,3,20,51,8,3,13,46,,,,,,,,,,,,,1,SP,1/4/22,SAFC13,Magenta,W,1,0,,,,W,TRUE,,,,,
+BP,Eighteen,Final,,,1,3,20,51,8,3,13,46,,,,,,,,,,,,,1,SP,1/4/22,SAFC13,Yellow,W,1,0,,,,W,TRUE,,,,,
+BP,Eighteen,Final,,,1,3,20,51,8,3,13,46,0,0,0,,0,0,0,,,,,,1,SP,1/4/22,SAFC13,Green,W,1,1,2.491,2.5,,W,TRUE,8C,0,0,0,
+BP,Eighteen,Final,1,1,,5,9,4,3,0,9,47,5,1,1,1 YO DAMAGED,4,1,1,,,,,,1,IP,1/5/22,F105,GOG,G,0,1,2.770,2.8,,G,TRUE,17C,5,1,1,
+BP,Eighteen,Final,1,1,,5,9,4,3,0,9,47,6,1,1,,6,1,1,,,,,,1,IP,1/5/22,F105,YGY,G,0,1,2.903,2.9,,G,TRUE,10C,7,1,1,
+BP,Eighteen,Final,1,1,,5,9,4,3,0,9,47,5,1,1,,5,1,1,,,,,,1,IP,1/5/22,F105,GYG,G,0,1,2.652,2.7,,G,TRUE,7C,5,1,1,
+BP,Eighteen,Final,1,1,,5,9,4,3,0,9,47,0,1,1,,0,1,1,,,,,,1,IP,1/5/22,F105,GOW,RG,0,1,2.715,2.7,,RG,TRUE,15C,0,1,1,
+BP,Eighteen,Final,1,1,,5,9,4,3,0,9,47,7,1,1,,7,1,1,,,,,,1,IP,1/5/22,F105,OBO,G,0,1,2.704,2.7,,G,TRUE,12C,6,1,1,
+BP,Eighteen,Final,1,1,,5,9,4,3,0,9,47,5,1,1,,5,1,1,,,,,,1,IP,1/5/22,F105,WGW,G,0,1,2.765,2.8,,G,TRUE,22C,5,1,1,
+BP,Eighteen,Final,1,1,,5,9,4,3,0,9,47,1,1,0,,0,1,1,1 oocyte not considered b/c not fully opaque,,,,,,IP,1/5/22,F105,umw,W,1,1,2.885,2.9,,W,TRUE,4C,1,1,0,1 included b/c sufficiently opaque
+BP,Eighteen,Final,1,1,,5,6,0,0,0,5,30,0,1,1,,,,,,,,,,1,IP,2/17/22,F111/1,BPB,RG,,1,2.429,2.4,,RG,TRUE,18C,0,1,1,gam also died after reverting
+BP,Eighteen,Final,,,,2,17,1,1,0,3,52,0,1,1,,,,,,,,,,1,SP,2/17/22,F103,PGP,W,,1,2.542,2.5,,W,TRUE,20C,0,1,1,
+BP,Eighteen,Final,1,,1,12,21,29,20,0,5,136,0,0,0,,,,,,,,,,1,IP,3/16/22,112C,Magenta,W,,1,2.443,2.4,,W,TRUE,10D,0,0,0,
+BP,Eighteen,Final,1,1,,5,6,0,0,0,5,30,6,1,1,,6,1,1,,,,,,1,IP,4/11/22,F111/1,PGP,G,0,1,2.536,2.5,,G,TRUE,27C,5,1,1,
+BP,Eighteen,Final,1,1,,5,6,0,0,0,5,30,4,1,1,,4,1,1,"maybe there's a 5th yo, but doesn't look distinct from rest b/c it is translucent",,,,,1,IP,4/11/22,F111/1,GPG,G,0,1,2.558,2.6,,G,TRUE,6C,5,1,1,
+BP,Eighteen,Final,1,1,,5,6,0,0,0,5,30,4,1,1,,3,1,1,"maybe there is a 4th yo, but looks squished",,,,,1,IP,4/11/22,F111/1,WPW,G,0,1,2.514,2.5,,G,TRUE,1C,4,1,1,
+BP,Eighteen,Final,1,1,,5,6,0,0,0,5,30,4,1,1,,3,1,1,,,,,,1,IP,4/11/22,F111/1,PWP,G,0,1,2.417,2.4,,G,TRUE,24C,3,1,1,
+BP,Eighteen,Final,1,1,,5,6,0,0,0,5,30,3,1,1,,3,1,1,,,,,,1,IP,4/11/22,F111/1,PBP,G,0,1,2.530,2.5,,G,TRUE,26C,3,1,1,
+,,,1,1,,,,,,,,,0,0,0,,0,0,0,,,,,,1,IP,4/11/22,F111/1,umw,W,0,,,,,W,TRUE,,,,,
+BP,Eighteen,Final,,,1,2,17,1,1,0,3,52,10,1,1,,10,1,1,,,,,,1,SP,12-Apr,F103,YGY,G,0,1,2.833,2.8,,G,TRUE,5C,9,1,1,1 excluded  b/c too translucent
+BP,Eighteen,Final,,,1,2,17,1,1,0,3,52,9,1,1,,8,1,1,"1 small one (potentially), but ruptured so not counting",,,,,1,SP,12-Apr,F103,YOY,G,0,1,2.534,2.5,,G,TRUE,21C,8,1,1,
+BP,Eighteen,Final,,,1,2,17,1,1,0,3,52,1,0,0,,1,0,0,,,,,,1,SP,12-Apr,F103,GOG,unclear,1,1,2.512,2.5,,W,FALSE,3C,1,0,0,
+BP,Eighteen,Final,,,1,2,17,1,1,0,3,52,0,0,0,,0,0,0,,,,,,1,SP,12-Apr,F103,OGO,W,0,1,2.550,2.6,,W,TRUE,19C,0,1,1,
+BP,Eighteen,Final,,,,3,49,28,3,7,27,100,11,1,1,including damaged YO,10,1,1,1 uncounted is very small,,,,,1,SP,12-Apr,F30,OBO,G,0,1,2.759,2.8,,G,TRUE,9C,11,1,1,
+BP,Eighteen,Final,,,,3,49,28,3,7,27,100,13,1,1,,12,1,1,1 YO is translucent,,,,,1,SP,12-Apr,F30,BOB,G,0,1,2.835,2.8,,G,TRUE,28C,12,1,1,
+BP,Eighteen,Final,,,,3,49,28,3,7,27,100,12,1,1,,10,1,1,"maybe 11, but one uncounted YO is super small",,,,,1,SP,12-Apr,F30,GOG,G,0,1,2.889,2.9,,G,TRUE,29C,12,1,1,1 included  even though  translucent
+BP,Eighteen,Final,1,1,,3,49,28,3,7,27,100,,,,,,,,,,,,,,IP,10-May,SAFC13A,YOY,RG,,1,2.451,2.5,,,,,,,,
+BP,Eighteen,Final,1,1,,4,6,3,3,0,0,53,5,0,1,,5,1,1,missing spermatheca,,,,,1,IP,5/25/22,SAFC13A,GOG,G,0,1,2.590,2.6,,G,TRUE,2D,5,0,1,
+BP,Eighteen,Final,1,1,,4,6,3,3,0,0,53,6,1,1,,6,1,1,,7,1,1,,1,IP,5/25/22,SAFC13A,BYB,G,1,1,2.238,2.2,,G,TRUE,20D,6,1,1,
+BP,Eighteen,Final,1,1,,4,6,3,3,0,0,53,7,1,1,,,,,,7,1,1,,1,IP,5/25/22,SAFC13A,YGY,G,0,1,2.333,2.3,,G,TRUE,16D,6,1,1,
+BP,Eighteen,Final,1,1,,4,6,3,3,0,0,53,6,1,1,,6,1,1,,,,,,1,IP,5/25/22,SAFC13A,YBY,G,0,1,2.521,2.5,,G,TRUE,18D,5,1,1,
+BP,Eighteen,Final,1,1,,4,6,3,3,0,0,53,1,0,0,,0,0,0,,1,0,0,egg' more glob than egg laid,1,IP,5/25/22,SAFC13A,OGO,W,0,1,2.309,2.3,,W,TRUE,7D,1,0,0,
+BP,Eighteen,Final,1,1,,4,6,3,3,0,0,53,0,1,1,,,,,,,,,,1,IP,2/25/22,SAFC13A,OBO,unclear,0,1,2.719,2.7,,unclear,TRUE,9D,3,1,1,hard to tell if these YO are ovoid or not
+BP,Eighteen,Final,,,1,3,40,139,9,3,26,97,6,1,1,,,,,,6,1,1,,1,SP,5/25/22,SAFC10,GYG,G,0,1,2.155,2.2,,G,TRUE,6D,6,1,1,1 oocyte excluded b/c it is round and not oval
+BP,Eighteen,Final,,,1,3,40,139,9,3,26,97,11,1,1,hard to see 11th yo in photo,,,,,11,1,1,,1,SP,5/25/22,SAFC10,OBO,G,0,1,2.608,2.6,,G,TRUE,13D,10,1,1,"1 YO is translucent, but still opaque enough to count.  Another is slightly translucent"
+BP,Eighteen,Final,,,1,3,40,139,9,3,26,97,9,1,1,hard to see 11th yo in photo,,,,,9,1,1,,1,SP,5/25/22,SAFC10,BYB,G,0,1,2.539,2.5,,G,TRUE,19D,7,1,1,"may be 1 oocyte that is broken beneath rest on the right.  Hard to tell, though."
+BP,Eighteen,Final,,,1,3,40,139,9,3,26,97,,,,,,,,,,,,,1,SP,5/25/22,SAFC10,YOG,W,1,,,,,W,TRUE,,,,,
+BP,Eighteen,Final,,,1,3,40,139,9,3,26,97,,,,,,,,,,,,,1,SP,5/25/22,SAFC10,YGO,W,1,,,,,W,TRUE,,,,,
+BP,Eighteen,Final,,,1,3,40,139,9,3,26,97,,,,,,,,,,,,,1,SP,5/25/22,SAFC10,MG,NG1,0,,,,,,,,,,,
+BP,Eighteen,Final,,,1,3,40,139,9,3,26,97,,,,,,,,,,,,,1,SP,5/25/22,SAFC10,MOM,NG1,1,,,,,,,,,,,
+BP,Eighteen,Final,,,1,3,40,139,9,3,26,97,,,,,,,,,,,,,1,SP,5/25/22,SAFC10,OMO,NG1,0,,,,,,,,,,,
+BP,Eighteen,Final,,,1,3,40,139,9,3,26,97,,,,,,,,,,,,,1,SP,5/25/22,SAFC10,G,NG1,1,,,,,,,,,,,
+BP,Eighteen,Final,,,1,3,40,139,9,3,26,97,,,,,,,,,,,,,1,SP,5/25/22,SAFC10,GOG,NG1,0,,,,,,,,,,,
+BP,Eighteen,Final,,,1,3,40,139,9,3,26,97,,,,,,,,,,,,,1,SP,5/25/22,SAFC10,OGOG,NG1,0,,,,,,,,,,,
+BP,Eighteen,Final,,,1,3,40,139,9,3,26,97,,,,,,,,,,,,,1,SP,5/25/22,SAFC10,OGO,NG1,0,,,,,,,,,,,
+BP,Eighteen,Final,,,1,3,40,139,9,3,26,97,,,,,,,,,,,,,1,SP,5/25/22,SAFC10,GMG,NG1,0,,,,,,,,,,,
+BP,Eighteen,Final,,,1,3,40,139,9,3,26,97,,,,,,,,,,,,,1,SP,5/25/22,SAFC10,MGM,NG1,0,,,,,,,,,,,
+BP,Eighteen,Final,,,1,3,40,139,9,3,26,97,,,,,,,,,,,,,1,SP,5/25/22,SAFC10,MO,W,1,,,,,,,,,,,
+BP,Eighteen,Final,1,1,1,12,21,29,20,0,5,136,6,1,1,,5,1,1,"maybe one more oocyte, but uncounted b/c too translucent",6,1,1,,1,IP,5/26/22,112C,BYB,G,0,,,,,G,TRUE,5D,6,1,1,
+BP,Eighteen,Final,1,1,1,12,21,29,20,0,5,136,7,1,1,,8,1,1,,,,,,1,IP,5/26/22,112C,GYG,G,0,1,2.671,2.7,,G,TRUE,15D,6,1,1,"may be 1 YO that is behind the ones on the left, but not distinct enough. 1 YO is situated on top of others on right"
+BP,Eighteen,Final,1,1,1,12,21,29,20,0,5,136,1,1,1,,1,1,1,,1,1,1,,1,IP,5/26/22,112C,YOY(OR YO_),RG,1,1,2.757,2.8,,RG,TRUE,12D,1,1,1,
+BP,Eighteen,Final,1,1,1,12,21,29,20,0,5,136,10,1,1,,8,1,1,"maybe one more YO, but is translucent",,,,,1,IP,5/26/22,112C,BOB (now _OB),G,0,1,2.609,2.6,,G,TRUE,8D,9,1,1,2 YO are partially obfuscated by another YO
+BP,Eighteen,Final,1,1,1,12,21,29,20,0,5,136,9,1,1,,8,1,1,one small oocyte uncounted b/c too  translucent,,,,,1,IP,5/26/22,112C,OBO,G,0,1,2.619,2.6,,G,TRUE,1D,8,1,1,
+BP,Eighteen,Final,1,1,1,12,21,29,20,0,5,136,0,1,1,,0,1,1,,0,1,1,,1,IP,5/26/22,112C,GOG,RG,1,1,2.404,2.4,,RG,TRUE,17D,0,1,1,
+BP,Eighteen,Final,,,1,5,22,0,0,0,1,69,9,1,1,,8,1,1,,,,,,1,SP,5/26/22,R3BA3A,YOY,G,0,0,,,,G,TRUE,11D,7,1,1,
+BP,Eighteen,Final,,,1,5,22,0,0,0,1,69,7,1,1,,7,1,1,,,,,,1,SP,5/26/22,R3BA3A,BYO,G,0,1,2.354,2.4,,G,TRUE,3D,6,1,1,1 YO obfuscated by another YO
+BP,Eighteen,Final,,,1,5,22,0,0,0,1,69,2,1,0,,2,1,0,,,,,,1,SP,5/26/22,R3BA3A,BOG,NG3,0,1,2.640,2.6,,NG,FALSE,4D,2,1,0,BP mixed up BGO and BOG in intiial labeling of ovaries
+BP,Eighteen,Final,,,1,5,22,0,0,0,1,69,0,1,0,,0,1,0,,,,,,1,SP,5/26/22,R3BA3A,BGO,NG1,0,1,2.331,2.3,,W,FALSE,14D,0,1,0,BP mixed up BGO and BOG in intiial labeling of ovaries
+CAB,Twelve,Final,,,1,2,19,20,3,,,,,,,,6,1,,,,,,,1,SP,12/31/19,F107/1,Orange Green,G,,0,,,,G,TRUE,44,4,1,1,"1 uncounted is underneath larger YO, and can't tell if sufficiently opaque; another uncounted away is not ovoid"
+CAB,Twelve,Final,,,1,2,19,20,3,,,,,,,,6,1,,,,,,,1,SP,12/31/19,F107/1,Green Green Yellow (-/blue),G,,0,,,,G,TRUE,45,6,1,1,
+CAB,Twelve,Final,,,,8,12,16,7,,,,,,,,6,1,,,,,,,1,IP,12/31/19,R22G/1(49E),Orange Green Orange,G,,0,,,,G,TRUE,40,5,1,1,"1 counted is mostly full, whereas 1 that is uncounted seems round"
+CAB,Twelve,Final,,,,8,12,16,7,,,,,,,,5,1,,,,,,,1,IP,12/31/19,R22G/1(49E),Green,G,,0,,,,G,TRUE,98,5,1,1,5th YO counted even though a bit unfilled--but good enough; may be a 6th YO but hard to tell
+CAB,Twelve,Final,,,,1,12,77,31,,,,,,,,5,1,,,,,,,1,SP,1/5/20,F21/1,Orange,G,,0,,,,G,TRUE,72,5,1,1,hard to distinguish 1 counted and small YO from larger one next to it
+CAB,Twelve,Final,,,,5,8,32,1,,,,,,,,4,1,,,,,,,1,IP,1/5/20,R4A(83),White Pink White,G,,1,2.811,2.8,,G,TRUE,31,3,1,1,may be an additional YO that was partially destroyed upon dissection--hard to tell and uncounted
+CAB,Twelve,Final,,,,5,8,32,1,,,,,,,,6,1,,,,,,,1,IP,1/5/20,R4A(83),Yellow,G,,1,2.727,2.7,,G,TRUE,46,6,1,1,
+CAB,Twelve,Final,,,,5,8,32,1,,,,,,,,4,1,,,,,,,1,IP,1/5/20,R4A(83),Pink,G,,0,,,,G,TRUE,57,4,1,1,hard to tell that 3rd and 4th Yos are ovoid
+CAB,Twelve,Final,1,1,,6,14,25,5,,,,,,,,4,1,,,,,,,1,IP,1/6/20,47B/C/2,Yellow Green Blue,G,,1,2.581,2.6,,G,TRUE,100,3,1,1,"1 uncounted seems partially filled and destroyed, but not enough to be sure it's a YO"
+CAB,Twelve,Final,1,1,,6,14,25,5,,,,,,,,,,,,,,,,,IP,1/6/20,47B/C/2,Yellow Orange Blue,G,,1,2.681,2.7,,,,,,,,
+CAB,Twelve,Final,,,,2,24,89,20,,,,,,,,7,1,,,,,,,1,SP,1/6/20,R15A(118),Orange,G,,1,2.861,2.9,,G,TRUE,3,6,1,1,"*may be 7th or 8th additional YO, but difficult to discern"
+CAB,Twelve,Final,,,,2,24,89,20,,,,,,,,6,1,,,,,,,1,SP,1/6/20,R15A(118),Yellow Orange Yellow,G,,1,2.791,2.8,,G,TRUE,63,6,1,1,
+CAB,Twelve,Final,1,,1,2,22,51,11,,,,,,,,,,,,,,,,1,SP,3/9/20,R4A(83B),Blue Pink White,G,,1,2.720,2.7,,G,TRUE,7,6,1,1,"GWB died, so presumed that it reverted before"
+CAB,Twelve,Final,1,,1,2,22,51,11,,,,,,,,,,,,,,,,1,SP,3/9/20,R4A(83B),Pink White Blue,G,,1,2.840,2.8,,G,TRUE,35,6,1,1,ncounted partially destroyed YO that is round
+CAB,Twelve,Final,,1,,5,12,37,4,,,,,,,,,,,,,,,,1,IP,3/9/20,SAFC9,Pink,G,,1,2.802,2.8,,G,TRUE,27,4,1,1,clear that 1 YO was partially destroyed in dissection--so counted
+CAB,Twelve,Final,,1,,5,12,37,4,,,,,,,,,,,,,,,,1,IP,3/9/20,SAFC9,Orange,G,,1,2.913,2.9,,G,TRUE,37,3,1,1,3 trophocytes not counted b/c round; 3rd YO counted since more ovoid than round
+CAB,Twelve,Final,,,,2,23,81,28,,,,,,,,,,,,,,,,1,SP,3/10/20,77B,Blue Green White,G,,1,2.950,3.0,,G,TRUE,29,3,0,1,1 trophocyte uncounted (round); may be another small YO but too hard to discern
+CAB,Twelve,Final,,,,2,23,81,28,,,,,,,,,,,,,,,,1,SP,3/10/20,77B,GreenBlueGreen,G,,1,2.695,2.7,,G,TRUE,42,5,1,1,"1 uncounted is too transparent to count, although ovoid"
+CAB,Twelve,Final,,,,8,12,47,13,,,,,,,,,,,,,,,,1,IP,3/10/20,99B,Green,G,,1,2.631,2.6,,G,TRUE,68,7,0,1,7th counted  is hard to tell because is underneath another
+CAB,Twelve,Final,,,,8,12,47,13,,,,,,,,,,,,,,,,1,IP,3/10/20,99B,OrangeBlueOrange,G,,1,2.896,2.9,,G,TRUE,80,7,1,1,yellow bodies are dim but present; filled spermatheca is hard to see but in middle left
+CAB,Twelve,Final,1,,,4,6,33,16,,,,,,,,,,,,,,,,1,IP,3/11/20,F21/1A,Green,G,,1,2.599,2.6,,G,TRUE,8,3,1,1,*4th one that is uncounted that may be beneath another YO
+CAB,Twelve,Final,1,,,4,6,33,16,,,,,,,,,,,,,,,,1,IP,3/11/20,F21/1A,Orange Blue Orange,G,,1,2.478,2.5,,G,TRUE,78,2,0,1,multiple uncounted trophocytes (too transparent); 1 uncounted is too round and transparent
+CAB,Twelve,Final,1,,,4,6,33,16,,,,,,,,,,,,,,,,1,IP,3/11/20,F21/1A,White Yellow White,G,,1,2.488,2.5,,G,TRUE,92,4,1,1,"1 counted is not fully ovoid, but good enough"
+CAB,Twelve,Final,,,,1,5,64,22,,,,,,,,,,,,,,,,1,SP,3/11/20,F48,Green Pink Green,G,,1,2.814,2.8,,G,TRUE,36,7,1,1,1  not counted since partially full and too transparent
+CAB,Twelve,Final,,,1,1,15,37,15,,,,,,,,,,,,,,,,1,SP,4/14/20,F20/1,Pink,G,,1,2.878,2.9,,G,TRUE,34,5,1,1,"hard to tell if spermatheca is filled , but think that it is"
+CAB,Twelve,Final,1,,,7,13,39,1,,,,,,,,,,,,,,,,1,IP,4/14/20,F44,Blue (-/blue),G,,1,2.883,2.9,,G,TRUE,9,7,0,1,uncounted 1 that is small and seems unfilled
+CAB,Twelve,Final,1,,,7,13,39,1,,,,,,,,,,,,,,,,1,IP,4/14/20,F44,Orange Blue (-/silver),G,,1,2.740,2.7,,G,TRUE,54,6,1,1,"hard to tell that spermatheca is filled, but seems to be; 1 yolky oocyte looks damaged, but still ovoid"
+CAB,Twelve,Final,1,,,7,13,39,1,,,,,,,,,,,,,,,,1,IP,4/14/20,F44,Blue Yellow Blue,unclear,,1,2.913,2.9,,G,FALSE,65,3,1,0,1 uncounted is too round and unfilled
+CAB,Twelve,Final,,,,9,15,54,0,,,,,,,,,,,,,,,,1,IP,4/28/20,SAFC12,Green Yellow Magenta,G,,1,2.937,2.9,,G,TRUE,11,6,1,1,"6th one is unclear is underneath ovarioles, but clear enough to count"
+CAB,Twelve,Final,,,,9,15,54,0,,,,,,,,,,,,,,,,1,IP,4/28/20,SAFC12,Yellow White Yellow,G,,1,2.700,2.7,,G,TRUE,30,4,1,1,"may be a an uncounted 5th that's obfuscated but hard to tell; 1 uncounted amorphous-shaped oocyte; 1 counted YO is a little weird shape, but still ovoid"
+CAB,Twelve,Final,,,,9,15,54,0,,,,,,,,,,,,,,,,1,IP,4/28/20,SAFC12,Yellow Green Yellow,G,,1,2.917,2.9,,G,TRUE,93,4,1,1,very small YO that is undeneath and hard to distinguish
+CAB,Twelve,Final,,,,1,11,51,2,,,,,,,,,,,,,,,,1,SP,4/28/20,T3A2(66),Orange,G,,1,2.467,2.5,,G,TRUE,99,6,1,1,hard to see very small YO near another
+BP,Twelve,Final,,,,9,15,54,0,,,,5,1,1,,,,,,,,,,1,IP,4/28/20,SAFC12,blue-yellow-blue,G,,0,,,,G,TRUE,14A,5,1,1,NONE
+BP,Twelve,Final,,,,9,15,54,0,,,,,1,1,,,,,,,,,,1,IP,4/28/20,SAFC12,green-yellow-green,G,,0,,,,G,TRUE,12A,4,0,1,"4-6 YO seen in raw observation, but too imprecise so data not entered"
+BP,Twelve,Final,,,,9,15,54,0,,,,4,0,1,,,,,,,,,,1,IP,4/28/20,SAFC12,white-yellow-white,G,,0,,,,G,TRUE,30A,4,0,1,NONE
+BP,Twelve,Final,,,,9,15,54,0,,,,3,0,1,,,,,,,,,,1,IP,4/28/20,SAFC12,yellow-pink-yellow,G,,0,,,,G,TRUE,24A,3,1,1,lost 2 YO after observation but before photography; counte 3rd YO from photo; even though seems to not be very consolidated
+BP,Twelve,Final,,,,8,14,63,15,,,,5,,1,,,,,,,,,,1,IP,8/26/20,F48A,GYG,G,,0,,,,G,TRUE,16A,4,0,1,photo: 1 yo is uncounted b/c too translucent
+BP,Twelve,Final,,,,8,14,63,15,,,,7,,1,,,,,,,,,,1,IP,8/26/20,F48A,OWO,G,,0,,,,G,TRUE,37A,7,0,1,photo: counting 7th YO even though partially obscured
+BP,Twelve,Final,,,,8,14,63,15,,,,4,,1,,,,,,,,,,1,IP,8/26/20,F48A,WGW,G,,0,,,,G,TRUE,3A,5,0,1,
+BP,Twelve,Final,,,,8,14,63,15,,,,6,,1,,,,,,,,,,1,IP,8/26/20,F48A,WOW,G,,0,,,,G,TRUE,57A,5,1,1,
+BP,Twelve,Final,,,,8,14,63,15,,,,4,,1,,,,,,,,,,1,IP,8/26/20,F48A,YWY,G,,0,,,,G,TRUE,1A,6,0,1,
+CAB,Twelve,Final,,,,8,14,63,15,,,,,,,,,,,,,,,,1,IP,8/27/20,F48A,Blue Green Pink,G,,1,2.904,2.9,,G,TRUE,22,5,1,1,
+CAB,Twelve,Final,,,,8,14,63,15,,,,,,,,,,,,,,,,1,IP,8/27/20,F48A,Blue Green Blue,G,,1,2.810,2.8,,G,TRUE,53,4,0,1,
+CAB,Twelve,Final,,,,8,14,63,15,,,,,,,,,,,,,,,,1,IP,8/27/20,F48A,Green Pink Blue,G,,1,2.719,2.7,,G,TRUE,89,5,1,1,6th and 7th uncounted b/c too transparent or covered by another to be separate
+CAB,Twelve,Final,,,,1,4,32,6,,,,,,,,,,,,,,,,1,SP,8/27/20,RP5/2(1B),White Yellow White,G,,1,2.618,2.6,,G,TRUE,21,6,1,1,
+CAB,Twelve,Final,1,,,5,8,18,1,,,,,,,,,,,,,,,,1,IP,8/28/20,R15A(118E),Yellow,G,,1,2.855,2.9,,G,TRUE,38,5,1,1,5 counted even though one is obscured by large YO on top of it
+CAB,Twelve,Final,1,,,5,8,18,1,,,,,,,,,,,,,,,,1,IP,8/28/20,R15A(118E),Yellow Orange,G,,1,2.693,2.7,,G,TRUE,52,3,1,1,"1 counted is weird shape,but still ovoid enough; 2nd counted is a little transparent but enough to be YO; 1 uncounted is round"
+CAB,Twelve,Final,1,,,5,8,18,1,,,,,,,,,,,,,,,,1,IP,8/28/20,R15A(118E),White,G,,1,2.860,2.9,,G,TRUE,95,6,1,1,hard to distinguish 1 YO underneath the rest
+CAB,Twelve,Final,1,1,,1,4,20,2,,,,,,,,,,,,,,,,1,SP,8/28/20,SAFC12A,Yellow Orange Yellow,unscanned,,1,2.652,2.7,,,,,,,,
+CAB,Twelve,Final,1,1,,1,4,20,2,,,,,,,,,,,,,,,,1,SP,8/28/20,SAFC12A,Yellow Green Yellow,G,,1,2.822,2.8,,G,TRUE,15,7,1,1,hard to tell 7th one on left ovariole superimposed on larger one
+BP,Twelve,Final,1,,,5,8,18,1,,,,5,,1,,,,,,,,,,1,IP,8/28/20,R15A(118E),blue,G,,0,,,,G,TRUE,11A,5,0,1,
+BP,Twelve,Final,1,,,5,8,18,1,,,,5,,1,,,,,,,,,,1,IP,8/28/20,R15A(118E),blue-orange,G,,0,,,,G,TRUE,63A,4,0,1,photo: 5th YO not counted b/c too translucent
+BP,Twelve,Final,,,,10,16,19,4,,,,6,0,1,,,,,,,,,,1,IP,9/12/20,R017A/2(16),BYB,G,,0,,,,G,TRUE,38A,6,0,1,
+BP,Twelve,Final,,,,10,16,19,4,,,,5,1,1,,,,,,,,,,1,IP,9/12/20,R017A/2(16),GMW,G,,0,,,,G,TRUE,34A,5,1,1,
+BP,Twelve,Final,,,,10,16,19,4,,,,5,0,1,,,,,,,,,,1,IP,9/12/20,R017A/2(16),GMY,G,,0,,,,G,TRUE,69A,5,1,1,photo: 4th and 5th YO distinguished from one another and both sufficiently opaque to be Yos
+BP,Twelve,Final,,,,10,16,19,4,,,,4,0,1,,,,,,,,,,1,IP,9/12/20,R017A/2(16),PBP,G,,0,,,,G,TRUE,6A,4,0,1,
+BP,Twelve,Final,,,,10,16,19,4,,,,5,1,1,,,,,,,,,,1,IP,9/12/20,R017A/2(16),PGP,G,,0,,,,G,TRUE,61A,4,0,1,photo: not counting 5th YO since too translucent
+BP,Twelve,Final,,,,10,16,19,4,,,,5,1,1,,,,,,,,,,1,IP,9/12/20,R017A/2(16),PWP,G,,0,,,,G,TRUE,64A,5,1,1,photo: 5th YO counted b/c sufficiently opaque
+BP,Twelve,Final,,,,10,16,19,4,,,,6,0,1,,,,,,,,,,1,IP,9/12/20,R017A/2(16),YBP,G,,0,,,,G,TRUE,49A,5,0,1,photo: 1 YO damaged during prep for photograph
+CAB,Twelve,Final,,,,10,16,19,4,,,,,,,,,,,,,,,,1,IP,9/13/20,R017A/2(16),Yellow Blue Yellow,G,,1,2.738,2.7,,G,TRUE,25,4,1,1,1 YO is a blurry and underneath an ovariole but counted
+CAB,Twelve,Final,,,,10,16,19,4,,,,,,,,,,,,,,,,1,IP,9/13/20,R017A/2(16),Blue White Blue,G,,1,2.761,2.8,,G,TRUE,75,7,1,1,"7th counted YO is a bit transparent, but opaque enough to count"
+CAB,Twelve,Final,,,,10,16,19,4,,,,,,,,,,,,,,,,1,IP,9/13/20,R017A/2(16),Green Blue Green,G,,1,2.762,2.8,,G,TRUE,76,4,1,1,"maybe an uncounted YO underneath other tissue, but too unclear to be confident"
+CAB,Twelve,Final,,,,1,5,58,7,,,,,,,,,,,,,,,,1,SP,9/13/20,RL8/6B1(112B),Yellow Orange,G,,1,2.848,2.8,,G,TRUE,67,11,0,1,1 counted is partially destroyed but counted anyway; another counted YO is hard to discern but must be underneath other one
+CAB,Twelve,Final,,,,7,11,94,41,,,,,,,,,,,,,,,,1,IP,9/18/20,R1G/2(18B),Blue Yellow Green,G,,1,2.980,3.0,,G,TRUE,59,6,1,1,
+CAB,Twelve,Final,,,,7,11,94,41,,,,,,,,,,,,,,,,1,IP,9/18/20,R1G/2(18B),Blue Green Blue,G,,1,2.736,2.7,,G,TRUE,90,5,1,1,1 trophocyte uncounted (round and too transparent);  1 YO has weird sausage shape
+CAB,Twelve,Final,,,,2,11,77,37,,,,,,,,,,,,,,,,1,SP,9/18/20,SAFC5,Orange Blue Orange,G,,1,2.762,2.8,,G,TRUE,66,7,1,1,1   uncounted underneath but hard to tell
+CAB,Twelve,Final,,,,2,11,77,37,,,,,,,,,,,,,,,,1,SP,9/18/20,SAFC5,Blue,G,,1,2.941,2.9,,G,TRUE,71,10,1,1,1 uncounted b/c round and partially filled; 
+BP,Twelve,Final,,,,7,11,94,41,,,,7,1,1,,,,,,,,,,1,IP,9/18/20,R1G/2(18B),BOB,G,,0,,,,G,TRUE,54A,3,1,1,BP: 4 of the raw YO seem too translucent on photo.  Probably why I didn't count
+BP,Twelve,Final,,,,7,11,94,41,,,,6,1,1,,,,,,,,,,1,IP,9/18/20,R1G/2(18B),BYB,G,,0,,,,G,TRUE,51A,5,1,1,
+BP,Twelve,Final,,,,7,11,94,41,,,,6,1,1,,,,,,,,,,1,IP,9/18/20,R1G/2(18B),GBG,G,,0,,,,G,TRUE,47A,6,1,1,
+BP,Twelve,Final,,,,7,11,94,41,,,,7,1,1,,,,,,,,,,1,IP,9/18/20,R1G/2(18B),YBY,G,,0,,,,G,TRUE,13A,5,0,1,BP: 2 raw YO seem too translucent in photo that I probably didn’t count them
+BP,Twelve,Final,,,,7,11,94,41,,,,6,1,1,,,,,,,,,,1,IP,9/18/20,R1G/2(18B),YOY,G,,0,,,,G,TRUE,21A,5,1,1,
+CAB,Twelve,Final,,,,8,13,75,6,,,,,,,,,,,,,,,,1,IP,10/2/20,F97/1,Blue Orange Blue,G,,1,2.950,3.0,,G,TRUE,14,3,1,1,can see a 3rd one underneath ovariole clear enough to decide
+CAB,Twelve,Final,,,,8,13,75,6,,,,,,,,,,,,,,,,1,IP,10/2/20,F97/1,Pink White Orange,G,,1,2.795,2.8,,G,TRUE,20,5,1,1,1 YO is a bit mishapen but ovoid enough to count
+BP,Twelve,Final,,,,8,13,75,6,,,,4,1,1,,,,,,,,,,1,IP,10/2/20,F97/1,OBO,G,,0,,,,G,TRUE,53A,4,1,1,
+BP,Twelve,Final,,,,8,13,75,6,,,,5,1,1,,,,,,,,,,1,IP,10/2/20,F97/1,OGO,G,,0,,,,G,TRUE,66A,4,1,1,
+BP,Twelve,Final,,,,8,13,75,6,,,,3,0,1,,,,,,,,,,1,IP,10/2/20,F97/1,OYO,G,,0,,,,G,TRUE,43A,3,0,1,
+BP,Twelve,Final,,,,8,13,75,6,,,,2,1,1,,,,,,,,,,1,IP,10/2/20,F97/1,PGP,G,,0,,,,G,TRUE,70A,2,1,1,
+BP,Twelve,Final,,,,8,13,75,6,,,,5,1,1,,,,,,,,,,1,IP,10/2/20,F97/1,PYW,G,,0,,,,G,TRUE,23A,5,1,1,"photo: 1 YO is partially obscured, but can tell its ovoid and opaque"
+BP,Twelve,Final,,,,8,13,75,6,,,,4,1,1,,,,,,,,,,1,IP,10/2/20,F97/1,YPB,G,,0,,,,G,TRUE,8A,3,0,1,
+CAB,Twelve,Final,,,,2,20,89,24,,,,,,,,,,,,,,,,1,SP,10/3/20,R1Q(2),Green Orange Green,G,,1,2.781,2.8,,G,TRUE,13,9,1,1,10th one is underneath but not clear enough to declare as 10th YO
+CAB,Twelve,Final,,,,2,20,89,24,,,,,,,,,,,,,,,,1,SP,10/3/20,R1Q(2),Green White Green,G,,1,2.672,2.7,,G,TRUE,47,5,1,1,1 uncounted YO is too round to be counted
+BP,Twelve,Final,,,,5,8,14,5,,,,6,1,1,,,,,,,,,,1,IP,10/31/20,RGB(109B),OYO,G,,0,,,,G,TRUE,31A,6,1,1,
+BP,Twelve,Final,,,,5,8,14,5,,,,7,1,1,,,,,,,,,,1,IP,10/31/20,RGB(109B),POP,G,,0,,,,G,TRUE,27A,5,1,1,
+BP,Twelve,Final,,,,5,8,14,5,,,,6,0,1,,,,,,,,,,1,IP,10/31/20,RGB(109B),PYP,G,,0,,,,G,TRUE,62A,5,0,1,photo: 6th YO not counted b/c too round
+CAB,Twelve,Final,,,,2,10,20,1,,,,,,,,8,1,1,,,,,,1,SP,11/1/20,R17(24B),Yellow,G,,1,2.821,2.8,,G,TRUE,4,6,1,1,*one that is unfilled that I am excluding
+CAB,Twelve,Final,,,,2,10,20,1,,,,,,,,3,1,1,,,,,,1,SP,11/1/20,R17(24B),Blue,G,,1,2.483,2.5,,G,TRUE,62,3,1,1,
+CAB,Twelve,Final,,,,5,8,14,5,,,,,,,,6,0,1,,,,,,1,IP,11/1/20,RGB(109B),Yellow Purple Yellow,G,,1,2.863,2.9,,G,TRUE,24,6,0,1,2 trophocyte that is round not ovoid NOT counted
+CAB,Twelve,Final,,,,5,8,14,5,,,,,,,,7,1,1,,,,,,1,IP,11/1/20,RGB(109B),Magenta Green Orange (-/blue),G,,1,2.825,2.8,,G,TRUE,49,4,1,1,"1 counted is not as opaque as others, but enough; 1 uncounted seems to be fragmented parts of a YO"
