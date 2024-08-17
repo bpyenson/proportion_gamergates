@@ -49,7 +49,7 @@ data$pupacare
 data$propgam<-data$NumGams/data$GroupSize
 data$propgam
 
-View(data)
+#View(data)
 
 
 library(Rmisc)
@@ -577,7 +577,7 @@ rm(list=ls())
 #import  DATA set 
 
 data<-read.csv("WorkerRemoval_Gam_treatment_CHC_2405.csv", header=TRUE)
-View(data)
+#View(data)
 str(data)
 #215 ants' chromatograms
 
@@ -1740,7 +1740,7 @@ rm(list=ls())
 #import  DATA set 
 
 data<-read.csv("WorkerRemoval_Gam_treatment_CHC_2405.csv", header=TRUE)
-View(data)
+#View(data)
 str(data)
 #215 ants' chromatograms
 
@@ -1876,8 +1876,8 @@ str(data_hw)
 
 datagam <- subset(data, STATUS=="GAMERGATE")
 datagam
-View(datagam)
-
+#View(datagam)
+#
 
 
 #load package
@@ -1945,7 +1945,7 @@ sum_data
 
 library(ggplot2)
 
-View(datagam)
+#View(datagam)
 
 fert_rp <- ggplot(datagam, aes(y=RPAREA1323dimec37, x=factor(TREATMENT))) + 
   #geom_boxplot() +
@@ -5364,6 +5364,9 @@ sum_data
 ##n= 42 IP gamergates
 ##n= 26 SP gamergates
 
+
+
+
 ##compare treatments for AL part of brain
 ALvol<- ggplot(datagambrain, aes(x=TREATMENT, y=AL_VOL)) + 
   geom_boxplot(width=0.5, aes(fill=Interval), show.legend = F) + 
@@ -5393,6 +5396,44 @@ e1<-emmeans(m1, pairwise ~ TREATMENT*Interval)
 e1
 e1$contrasts
 multcomp::cld(e1)
+
+
+
+##divide values for all volumes by 1000 to generate in mm3 rather than um3
+datagambrain$alvol_mm <- datagambrain$AL_VOL/1000
+
+
+##compare treatments for AL part of brain
+ALvol_mm<- ggplot(datagambrain, aes(x=TREATMENT, y=alvol_mm)) + 
+  geom_boxplot(width=0.5, aes(fill=Interval), show.legend = F) + 
+  #geom_signif(comparisons=list(c("Alate", "Dealate")), annotations="", y_position = 0.2, tip_length = 0) +
+  theme(axis.text.x = element_text(size = 20),
+        axis.text.y = element_text(size = 20),
+        axis.title.x = element_text(size = 20),
+        axis.title.y = element_text(size = 20),) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_blank(), axis.line = element_line(colour = "black")) +
+  #scale_y_continuous(breaks=c(0,1,2,3)) +
+  labs (x="Treatment", y="Antennal Lobe Volume (mm^3)")+
+  expand_limits(y=c(0,15000))
+ALvol_mm
+
+
+library(lme4)
+library(car)
+
+m1 <- lm( alvol_mm~ TREATMENT + Interval + TREATMENT*Interval, data = datagambrain)
+summary(m1 )
+Anova(m1)
+#no significant differences
+
+library(emmeans)
+e1<-emmeans(m1, pairwise ~ TREATMENT*Interval)
+e1
+e1$contrasts
+multcomp::cld(e1)
+
+
 
 
 
@@ -5429,6 +5470,48 @@ e1$contrasts
 multcomp::cld(e1)
 
 
+
+
+
+##divide values for all volumes by 1000 to generate in mm3 rather than um3
+datagambrain$olvol_mm <- datagambrain$OL_VOL/1000
+
+
+##compare treatments for AL part of brain
+OLvol_mm<- ggplot(datagambrain, aes(x=TREATMENT, y=olvol_mm)) + 
+  geom_boxplot(width=0.5, aes(fill=Interval), show.legend = F) + 
+  #geom_signif(comparisons=list(c("Alate", "Dealate")), annotations="", y_position = 0.2, tip_length = 0) +
+  theme(axis.text.x = element_text(size = 20),
+        axis.text.y = element_text(size = 20),
+        axis.title.x = element_text(size = 20),
+        axis.title.y = element_text(size = 20),) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_blank(), axis.line = element_line(colour = "black")) +
+  #scale_y_continuous(breaks=c(0,1,2,3)) +
+  labs (x="Treatment", y="Optic Lobe Volume (mm^3)")+
+  expand_limits(y=c(0,20000))
+OLvol_mm
+
+
+library(lme4)
+library(car)
+
+m1 <- lm( olvol_mm~ TREATMENT + Interval + TREATMENT*Interval, data = datagambrain)
+summary(m1 )
+Anova(m1)
+#no significant differences
+
+library(emmeans)
+e1<-emmeans(m1, pairwise ~ TREATMENT*Interval)
+e1
+e1$contrasts
+multcomp::cld(e1)
+
+
+
+
+
+
 ##compare treatments for CB part of brain
 CBvol<- ggplot(datagambrain, aes(x=TREATMENT, y=CB_VOL)) + 
   geom_boxplot(width=0.5, aes(fill=Interval), show.legend = F) + 
@@ -5450,6 +5533,42 @@ library(lme4)
 library(car)
 
 m1 <- lm( CB_VOL~ TREATMENT + Interval + TREATMENT*Interval, data = datagambrain)
+summary(m1 )
+Anova(m1)
+#no significant differences
+
+library(emmeans)
+e1<-emmeans(m1, pairwise ~ TREATMENT*Interval)
+e1
+e1$contrasts
+multcomp::cld(e1)
+
+
+
+##divide values for all volumes by 1000 to generate in mm3 rather than um3
+datagambrain$cbvol_mm <- datagambrain$CB_VOL/1000
+
+
+##compare treatments for AL part of brain
+CBvol_mm<- ggplot(datagambrain, aes(x=TREATMENT, y=cbvol_mm)) + 
+  geom_boxplot(width=0.5, aes(fill=Interval), show.legend = F) + 
+  #geom_signif(comparisons=list(c("Alate", "Dealate")), annotations="", y_position = 0.2, tip_length = 0) +
+  theme(axis.text.x = element_text(size = 20),
+        axis.text.y = element_text(size = 20),
+        axis.title.x = element_text(size = 20),
+        axis.title.y = element_text(size = 20),) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_blank(), axis.line = element_line(colour = "black")) +
+  #scale_y_continuous(breaks=c(0,1,2,3)) +
+  labs (x="Treatment", y="Central Complex Volume (mm^3)")+
+  expand_limits(y=c(0,40000))
+CBvol_mm
+
+
+library(lme4)
+library(car)
+
+m1 <- lm( cbvol_mm~ TREATMENT + Interval + TREATMENT*Interval, data = datagambrain)
 summary(m1 )
 Anova(m1)
 #no significant differences
@@ -5498,9 +5617,57 @@ multcomp::cld(e1)
 
 
 
+##divide values for all volumes by 1000 to generate in mm3 rather than um3
+datagambrain$totvol_mm <- datagambrain$Total_brain/1000
+
+
+##compare treatments for AL part of brain
+totalvol_mm<- ggplot(datagambrain, aes(x=TREATMENT, y=totvol_mm)) + 
+  geom_boxplot(width=0.5, aes(fill=Interval), show.legend = T) + 
+  #geom_signif(comparisons=list(c("Alate", "Dealate")), annotations="", y_position = 0.2, tip_length = 0) +
+  theme(axis.text.x = element_text(size = 20),
+        axis.text.y = element_text(size = 20),
+        axis.title.x = element_text(size = 20),
+        axis.title.y = element_text(size = 20),
+        legend.title = element_blank(),
+        legend.text = element_text(size=10)) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_blank(), axis.line = element_line(colour = "black")) +
+  #scale_y_continuous(breaks=c(0,1,2,3)) +
+  labs (x="Treatment", y="Total Brain Volume (mm^3)")+
+  expand_limits(y=c(0,160000))
+totalvol_mm
+
+
+library(lme4)
+library(car)
+
+m1 <- lm( totvol_mm~ TREATMENT + Interval + TREATMENT*Interval, data = datagambrain)
+summary(m1 )
+Anova(m1)
+#no significant differences
+
+library(emmeans)
+e1<-emmeans(m1, pairwise ~ TREATMENT*Interval)
+e1
+e1$contrasts
+multcomp::cld(e1)
+
+
+
+
+
+
+
 
 require(gridExtra)
 grid.arrange(ALvol, OLvol, CBvol, totvol, ncol=4)
+
+
+require(gridExtra)
+grid.arrange(ALvol_mm, OLvol_mm, CBvol_mm, totalvol_mm, ncol=4)
+
+
 
 
 #load package
@@ -5632,7 +5799,7 @@ pcolsize <- ggplot(data, aes(y=GroupSize, x=factor(Treatment))) +
   #scale_y_continuous(breaks=c(0,1)) +
   theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20), axis.title.y = element_text(size=20) ) +
   theme(legend.title = element_blank()) +
-  labs (title="", x="", y="Colony Size") +
+  labs (title="", x="", y="Colony size (# workers)") +
   #expand_limits(y=c(0,25))
   #scale_colour_manual(values=cbPalette)
   expand_limits(y=c(0,150))
@@ -5803,7 +5970,7 @@ ppropgam <- ggplot(data, aes(y=propgam, x=factor(Treatment))) +
   #scale_y_continuous(breaks=c(0,1)) +
   theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20), legend.text = element_text(size=20), axis.title.y = element_text(size=20)) +
   theme(legend.title = element_blank()) +
-  labs (title="", x="", y="# Dominants / Colony Size") +
+  labs (title="", x="", y="# Dominants / Colony size") +
   #expand_limits(y=c(0,25))
   #scale_colour_manual(values=cbPalette)
   expand_limits(y=c(0,1))
@@ -6705,7 +6872,9 @@ pyo_diffgroups <- ggplot(data_gam_only, aes(y=PHOTO_YO, x=factor(Treatment))) +
   #theme(axis.text.x = element_text(angle = 90)) +
   #theme(axis.text.x = element_blank()) +
   scale_y_continuous(breaks=seq(0,15, by=1)) +
-  theme(axis.text.x = element_text(size = 20),axis.text.y = element_text(size = 20), axis.title.x = element_text(size=20), axis.title.y = element_text(size=20) ) +
+  theme(axis.text.x = element_text(size = 20),axis.text.y = element_text(size = 20), 
+        axis.title.x = element_text(size=20), axis.title.y = element_text(size=20),
+        legend.text= element_text(size=16), legend.title= element_blank()) +
   theme(legend.title = element_blank()) +
   labs (title="", x="", y="# Yolky Oocytes") #+
 #expand_limits(y=c(0,25))
@@ -6992,7 +7161,9 @@ headwidth_oocytes_treatment2<- ggplot(data_gam, aes(x=headwidth_mm, y=PHOTO_YO))
   #geom_smooth(method = "glm", formula = y~x, method.args = list(family = gaussian(link = 'log')), se=F, col="blue") +
   #geom_smooth(method=lm, formula= y~log(1+x), se=F, col="green") +
   geom_smooth(method=lm, formula= y~x, se=F) +
-  theme(axis.text.x = element_text(size = 20),axis.text.y = element_text(size = 20), axis.title.x = element_text(size = 20),axis.title.y = element_text(size = 20)) +
+  theme(axis.text.x = element_text(size = 20),axis.text.y = element_text(size = 20), 
+        axis.title.x = element_text(size = 20),axis.title.y = element_text(size = 20),
+        strip.text = element_text(size = 20)) +
   #scale_y_continuous(breaks=c(0,1,2)) +
   labs (x="Head width (mm)", y="# Yolky Oocytes") +
   expand_limits(y=c(0,15)) +
@@ -7455,7 +7626,7 @@ bc_rg <- ggplot(data_barchart, aes(y=propRG, x=factor(Treatment))) +
   #scale_y_continuous(breaks=c(0,1)) +
   theme(axis.text.x = element_text(size = 20),axis.text.y = element_text(size = 20), axis.title.y = element_text(size = 20),  axis.title.x = element_text(size = 20), strip.text = element_text(size = 20)  ) +
   theme(legend.title = element_blank()) +
-  labs (title="", x="Treatment", y="Cols with dom. reversion / Total") +
+  labs (title="", x="Treatment", y="# cols with dom. reversion / total # cols") +
   #expand_limits(y=c(0,25))
   #scale_colour_manual(values=cbPalette)
   expand_limits(y=c(0,1)) 
@@ -7473,7 +7644,7 @@ bc_dg <- ggplot(data_barchart, aes(y=propdead, x=factor(Treatment))) +
   #scale_y_continuous(breaks=c(0,1)) +
   theme(axis.text.x = element_text(size = 20),axis.text.y = element_text(size = 20), axis.title.y = element_text(size = 20),  axis.title.x = element_text(size = 20), strip.text = element_text(size = 20)  ) +
   theme(legend.title = element_blank()) +
-  labs (title="", x="Treatment", y="Cols with dom. death / Total") +
+  labs (title="", x="Treatment", y="# cols with dom. death / total # cols") +
   #expand_limits(y=c(0,25))
   #scale_colour_manual(values=cbPalette)
   expand_limits(y=c(0,1)) 
@@ -7491,7 +7662,7 @@ bc_ng <- ggplot(data_barchart, aes(y=propNG, x=factor(Treatment))) +
   #scale_y_continuous(breaks=c(0,1)) +
   theme(axis.text.x = element_text(size = 20),axis.text.y = element_text(size = 20), axis.title.y = element_text(size = 20),  axis.title.x = element_text(size = 20), strip.text = element_text(size = 20) ) +
   theme(legend.title = element_blank()) +
-  labs (title="", x="Treatment", y="Cols with potential new dom. / Total") +
+  labs (title="", x="Treatment", y="# cols with potential new dom. / total # cols") +
   #expand_limits(y=c(0,25))
   #scale_colour_manual(values=cbPalette)
   expand_limits(y=c(0,1)) 
@@ -7597,7 +7768,7 @@ numantdrum <- ggplot(data_G, aes(y=diffnumantdrum, x=factor(Treatment))) +
   #scale_y_continuous(breaks=seq(0,30, by=3)) +
   theme(axis.text.x = element_text(size = 20),axis.text.y = element_text(size = 20), axis.title.x= element_text(size=20) ) +
   theme(legend.title = element_blank()) +
-  labs (title="", x="Treatment", y="Change in # antennal boxings performed by a dom. (Final-Initial)") +
+  labs (title="", x="Treatment", y="Change in # antennal boxings (Final-Initial)") +
   expand_limits(y=c(-20,30))
 #scale_colour_manual(values=cbPalette)
 #expand_limits(y=c(0,150))
@@ -7662,7 +7833,7 @@ sumdomperfs <- ggplot(data_G, aes(y=diffnumdomperf, x=factor(Treatment))) +
   #scale_y_continuous(breaks=seq(0,30, by=2)) +
   theme(axis.text.x = element_text(size = 20),axis.text.y = element_text(size = 20), axis.title.x= element_text(size=20) ) +
   theme(legend.title = element_blank()) +
-  labs (title="", x="Treatment", y="Change in # dom. bites performed by a dom. (Final-Initial)") #+
+  labs (title="", x="Treatment", y="Change in # dom. bites (Final-Initial)") #+
 #expand_limits(y=c(0,25))
 #scale_colour_manual(values=cbPalette)
 #expand_limits(y=c(0,150))
@@ -7720,7 +7891,7 @@ allogroom <- ggplot(data_G, aes(y=diffallogrooming, x=factor(Treatment))) +
   #scale_y_continuous(breaks=seq(0,30, by=2)) +
   theme(axis.text.x = element_text(size = 20),axis.text.y = element_text(size = 20), axis.title.x= element_text(size=20) ) +
   theme(legend.title = element_blank()) +
-  labs (title="", x="Treatment", y="Change in # 5-min obs. of dom. allogrooming (Final-Initial)") #+
+  labs (title="", x="Treatment", y="Change in # 5-min obs. allogrooming (Final-Initial)") #+
 #expand_limits(y=c(0,25))
 #scale_colour_manual(values=cbPalette)
 #expand_limits(y=c(0,150))
@@ -7854,7 +8025,7 @@ brood <- ggplot(data_G, aes(y=diffhandlebrood, x=factor(Treatment))) +
   #scale_y_continuous(breaks=seq(0,30, by=2)) +
   theme(axis.text.x = element_text(size = 20),axis.text.y = element_text(size = 20), axis.title.x= element_text(size=20) ) +
   theme(legend.title = element_blank()) +
-  labs (title="", x="Treatment", y="Change in # 5-min obs. brood handling by a dom. (Final-Initial)") +
+  labs (title="", x="Treatment", y="Change in # 5-min obs. brood handling (Final-Initial)") +
   expand_limits(y=c(-4,6))
 #scale_colour_manual(values=cbPalette)
 #expand_limits(y=c(0,150))
